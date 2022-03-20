@@ -1,0 +1,84 @@
+body {
+    background-color: #1B1F27;
+    font-family: Andale Mono, monospace;
+    overflow: hidden;
+}
+
+.area-login{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+    background-color: #181920;
+    width: 365px;
+    height: 355px;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.login form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: Andale Mono, monospace;
+}
+
+.login input{
+    margin-top: 20px;
+    background-color: #252A34;
+    border: none;
+    height: 45px;
+    outline: none;
+    border-radius: 8px;
+    color: #CBD0F7;
+    padding-left: 10px;
+}
+
+.login img{
+    width: 90px;
+    height: auto;
+}
+
+input::placeholder{
+    font-size: 14px;
+}
+
+form [type="submit"]{
+    background-color: #361969;
+    font-family: Andale Mono, monospace;
+    box-shadow: 2px 2px 2px black;
+}
+
+form [type="text"]{
+    font-family: Andale Mono, monospace;
+    box-shadow: 2px 2px 2px black;
+}
+
+form [type="password"]{
+    font-family: Andale Mono, monospace;
+    box-shadow: 2px 2px 2px black;
+}
+
+.button{
+    display: block;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: #230d49;
+}
+
+p{
+    color: #CBD0F7;
+}
+
